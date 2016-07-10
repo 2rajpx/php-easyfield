@@ -1,6 +1,7 @@
 {
     "name": "2rajpx/php-field",
     "description": "Helps to make the form fields, rules, error handling, callback rendering and etc",
+    "type": "library",
     "require": {
         "2rajpx/php-helper": "dev-master"
     },
@@ -10,5 +11,11 @@
             "name": "Tooraj Khatibi",
             "email": "2rajpx@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "2jpx\\field\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
