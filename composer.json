@@ -1,0 +1,18 @@
+{
+    "name": "2rajpx/php-field",
+    "description": "Helps to make the form fields, rules, error handling, callback rendering and etc",
+    "require": {
+        "2rajpx/php-helper": "dev-master"
+    },
+    "require-dev": {
+        "2rajpx/php-helper": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tooraj Khatibi",
+            "email": "2rajpx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
