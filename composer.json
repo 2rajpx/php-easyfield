@@ -4,9 +4,6 @@
     "require": {
         "2rajpx/php-helper": "dev-master"
     },
-    "require-dev": {
-        "2rajpx/php-helper": "dev-master"
-    },
     "license": "MIT",
     "authors": [
         {
