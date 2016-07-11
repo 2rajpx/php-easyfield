@@ -2,7 +2,7 @@
 
 namespace tjpx\field;
 
-use tjpx\helper\base\Object;
+use tjpx\helper\Object;
 
 /**
  * @link https://github.com/2rajpx/php-field/

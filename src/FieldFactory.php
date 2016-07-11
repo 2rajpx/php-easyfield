@@ -2,8 +2,8 @@
 
 namespace tjpx\field;
 
-use tjpx\helper\base\Factory;
-use tjpx\helper\numstr\Naming;
+use tjpx\helper\Factory;
+use tjpx\helper\Inflector;
 
 /**
  * @link https://github.com/2rajpx/php-field/
@@ -35,17 +35,17 @@ class FieldFactory extends Factory {
             $config['class'] = Text::className();
         }
         // Make _pascalName by name of the element
-        $this->_pascalName = Naming::camelize($config['name']);
+        $pascalName = Inflector::camelize($config['name']);
         // Make binding name
-        $this->_bindingName = null;
-        if ($prefix = $this->prefix) {
+        $bindingName = null;
+        if ($prefix = $prefix) {
             // Prepend the prefix to the binding name
-            $this->_bindingName.= Naming::camelize($prefix);
+            $bindingName.= Inflector::camelize($prefix);
         }
         // Append the pascal name to binding name
-        $this->_bindingName.= $this->_pascalName;
+        $bindingName.= $pascalName;
         // Use (_) seperator insetead of camelCase
-        $this->_bindingName = Naming::camel2id($this->_bindingName, '_');
+        $bindingName = Inflector::camel2id($bindingName, '_');
         return parent::getInstance($config);
 	}
 

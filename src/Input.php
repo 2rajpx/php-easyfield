@@ -24,7 +24,7 @@ class Input extends Field{
     /**
      * @inheritdoc
      */
-    protected function attributes() {
+    protected function prepare() {
         // Set name
         $this->attributes['name'] = $this->name;
         // Set id
@@ -57,7 +57,7 @@ class Input extends Field{
             $this->name,
             $this->label,
             $this->attributes,
-            $this->errors,
+            $this->errors
         );
     }
 
