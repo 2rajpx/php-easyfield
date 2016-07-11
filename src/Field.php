@@ -226,7 +226,7 @@ abstract class Field extends Object
             // Throw exception
             throw new \Exception("The ".get_class($this)."::$render must be a callback", 1);
         // Run callback
-        $rendered = $cb();
+        $rendered = $cb($this);
         // If result is valid
         if (is_string($rendered))
             // Return rendered field
