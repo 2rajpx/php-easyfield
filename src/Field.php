@@ -92,14 +92,6 @@ abstract class Field extends Object
     public $errors;
 
     /**
-     * Prefix of the field
-     * It is concated first of the element name to make it uniquely
-     * 
-     * @var string $prefix Holds the prefix of the field
-     */
-    public $prefix;
-
-    /**
      * Prepares the properties to render the field
      *
      * @abstract Use object to prepare properties
