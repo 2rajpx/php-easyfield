@@ -1,9 +1,9 @@
 <?php
 
-namespace 2jpx\field;
+namespace tjpx\field;
 
-use 2jpx\helper\base\Factory;
-use 2jpx\helper\numstr\Naming;
+use tjpx\helper\base\Factory;
+use tjpx\helper\numstr\Naming;
 
 /**
  * @link https://github.com/2rajpx/php-field/

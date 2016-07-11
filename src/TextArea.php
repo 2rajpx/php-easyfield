@@ -1,6 +1,6 @@
 <?php
 
-namespace 2jpx\field;
+namespace tjpx\field;
 
 /**
  * @link https://github.com/2rajpx/php-field/

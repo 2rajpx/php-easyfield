@@ -1,8 +1,8 @@
 <?php
 
-namespace 2jpx\field;
+namespace tjpx\field;
 
-use 2jpx\helper\base\Object;
+use tjpx\helper\base\Object;
 
 /**
  * @link https://github.com/2rajpx/php-field/

@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "2jpx\\field\\": "src/"
+            "tjpx\\field\\": "src/"
         }
     },
     "minimum-stability": "dev"
